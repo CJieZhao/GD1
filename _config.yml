@@ -5,14 +5,14 @@
 # Site
 title: D1
 subtitle:
-description:
+description: Too Late
 author: CJie
-language:
+language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://cjiezhao.github.io/D1/
+url: https://cjiezhao.github.io/
 root: /D1/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: cafe
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -71,3 +71,16 @@ deploy:
   type: git
   repo: https://github.com/CJieZhao/D1.git
   branch: master
+  
+# For Next theme
+duoshuo_shortname: CJie
+#avatar: https://cjiezhao.github.io/D1/avatar.png
+baidu_analytics: a8319d4e3f080cced1791a7aa04b658d
+
+plugin: hexo-generator-feed
+
+#Feed Atom
+feed:
+type: atom
+path: atom.xml
+limit: 20
